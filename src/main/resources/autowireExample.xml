@@ -4,9 +4,13 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+<!--    <bean id="Alien" class="in.rupam.Alien" autowire="byName">-->
+<!--        <property name="lines" value="100"/>-->
+<!--    </bean>-->
     <bean id="Alien" class="in.rupam.Alien" autowire="byType">
         <property name="lines" value="100"/>
     </bean>
-    <bean id="computer" class="in.rupam.Laptop"></bean>
-
+    <bean id="computer" class="in.rupam.Laptop" primary="true"></bean>
+<!--    will be initialized only when the object is created, it will be singleton object-->
+<bean id="com" class="in.rupam.Desktop" lazy-init="true"></bean>
 </beans>
