@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f01d70-5311-4599-a7bf-1cd9d71e027d" name="Changes" comment="Autowire by Type and lazy init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/rupam/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/autowireExample.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/autowireExample.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f7f01d70-5311-4599-a7bf-1cd9d71e027d" name="Changes" comment="inner bean" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725200155001</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="inner bean">
+      <option name="closed" value="true" />
+      <created>1725200668974</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725200668974</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +140,7 @@
     <MESSAGE value="Constructor injection" />
     <MESSAGE value="Autowire by Type" />
     <MESSAGE value="Autowire by Type and lazy init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Autowire by Type and lazy init" />
+    <MESSAGE value="inner bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="inner bean" />
   </component>
 </project>
