@@ -10,7 +10,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class App 
 {
     public static void main( String[] args ) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+//        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("autowireExample.xml");
         Alien alien = (Alien) context.getBean("Alien");
         alien.coding();
         System.out.println(alien.getLines());

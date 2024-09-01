@@ -14,11 +14,19 @@ public class Alien {
         return com;
     }
 
-    @ConstructorProperties({"line","computer"})
-    public Alien(int lines, Computer com) {
+    public void setLines(int lines) {
         this.lines = lines;
+    }
+
+    public void setCom(Computer com) {
         this.com = com;
     }
+
+//    @ConstructorProperties({"line","computer"})
+//    public Alien(int lines, Computer com) {
+//        this.lines = lines;
+//        this.com = com;
+//    }
 
     public void coding(){
         System.out.println("Coding...");
