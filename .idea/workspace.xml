@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f01d70-5311-4599-a7bf-1cd9d71e027d" name="Changes" comment="Constructor injection">
+    <list default="true" id="f7f01d70-5311-4599-a7bf-1cd9d71e027d" name="Changes" comment="Autowire by Type and lazy init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/rupam/Alien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/rupam/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/autowireExample.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/autowireExample.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="in.rupam" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="in.rupam" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -109,12 +112,30 @@
       <option name="project" value="LOCAL" />
       <updated>1725198759335</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Autowire by Type">
+      <option name="closed" value="true" />
+      <created>1725199191696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725199191696</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Autowire by Type and lazy init">
+      <option name="closed" value="true" />
+      <created>1725200155001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725200155001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring learn setup" />
     <MESSAGE value="Constructor injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructor injection" />
+    <MESSAGE value="Autowire by Type" />
+    <MESSAGE value="Autowire by Type and lazy init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autowire by Type and lazy init" />
   </component>
 </project>

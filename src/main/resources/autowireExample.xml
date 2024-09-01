@@ -13,4 +13,14 @@
     <bean id="computer" class="in.rupam.Laptop" primary="true"></bean>
 <!--    will be initialized only when the object is created, it will be singleton object-->
 <bean id="com" class="in.rupam.Desktop" lazy-init="true"></bean>
+
+<!--    Example of inner bean-->
+    <bean id="alien2" class="in.rupam.Alien2" autowire="byType">
+        <property name="lines" value="77"/>
+        <property name="com">
+            <bean id="com" class="in.rupam.Desktop" primary="true"></bean>
+        </property>
+
+    </bean>
 </beans>
+
