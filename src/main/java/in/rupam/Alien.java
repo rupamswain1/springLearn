@@ -1,28 +1,27 @@
 package in.rupam;
 
+import java.beans.ConstructorProperties;
+
 public class Alien {
     private int lines;
+    private Computer com;
 
-    public Laptop getLaptop() {
-        return laptop;
-    }
-
-    public void setLaptop(Laptop laptop) {
-        this.laptop = laptop;
-    }
-
-    private Laptop laptop;
     public int getLines() {
         return lines;
     }
 
-    public void setLines(int lines) {
-        this.lines = lines;
+    public Computer getLaptop() {
+        return com;
     }
 
+    @ConstructorProperties({"line","computer"})
+    public Alien(int lines, Computer com) {
+        this.lines = lines;
+        this.com = com;
+    }
 
     public void coding(){
         System.out.println("Coding...");
-        laptop.compile();
+        com.compile();
     }
 }

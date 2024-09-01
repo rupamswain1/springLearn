@@ -6,9 +6,25 @@
 
     <!-- bean definitions here -->
 <!--<bean id="Alien" class="in.rupam.Alien" scope="prototype"></bean>-->
-    <bean id="Alien" class="in.rupam.Alien" scope="prototype">
-        <property name="lines" value="30"></property>
-        <property name="laptop" ref="lap"></property>
+    <bean id="Alien" class="in.rupam.Alien" scope="prototype" autowire="byName">
+<!--        Set values to constructor-->
+    <!--        based on sequence-->
+
+
+<!--        <constructor-arg value="30"/>-->
+<!--        <constructor-arg ref="lap"/>-->
+
+<!--        based on index-->
+<!--        <constructor-arg index="1" ref="lap"/>-->
+<!--        <constructor-arg index="0" value="55"/>-->
+
+<!--        based on name-->
+        <constructor-arg name="computer" ref="desktop"/>
+        <constructor-arg name="line" value="99"/>
+<!--        Below lines are used to set the properties of class-->
+<!--        <property name="lines" value="30"></property>-->
+<!--        <property name="laptop" ref="lap"></property>-->
     </bean>
     <bean id="lap" class="in.rupam.Laptop"></bean>
+    <bean id="desktop" class="in.rupam.Desktop"></bean>
 </beans>
