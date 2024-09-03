@@ -16,9 +16,10 @@ public class App
         Desktop desktop = context.getBean(Desktop.class);
         //or we can call by bean name, by default it will be method name defined in config
         Desktop desktop2 = context.getBean("desktop",Desktop.class);
+        Laptop laptop = context.getBean(Laptop.class);
         //or we can provide the name in config and use it
-        Laptop laptop = (Laptop) context.getBean("lappy");
-        Laptop laptop2 = (Laptop) context.getBean("lappy");
+//        Laptop laptop = (Laptop) context.getBean("lappy");
+//        Laptop laptop2 = (Laptop) context.getBean("lappy");
 
         Alien alien = context.getBean(Alien.class);
         alien.coding();
