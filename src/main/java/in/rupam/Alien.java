@@ -29,7 +29,7 @@ public class Alien {
 //    }
 
     public void coding(){
-        System.out.println("Coding...");
+        System.out.println("Coding..."+this.lines+" lines");
         com.compile();
     }
 }

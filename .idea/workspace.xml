@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f01d70-5311-4599-a7bf-1cd9d71e027d" name="Changes" comment="new branch for java bsaed config">
+    <list default="true" id="f7f01d70-5311-4599-a7bf-1cd9d71e027d" name="Changes" comment="get bean by name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/rupam/Alien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/rupam/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/rupam/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/rupam/config/AppConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +56,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "javaBasedConfig",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/media/rupam/New Volume/Development/java/springLearn"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springLearn [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springLearn [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;javaBasedConfig&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/rupam/New Volume/Development/java/springLearn&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="in.rupam" />
@@ -148,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725201290355</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="get bean by name">
+      <option name="closed" value="true" />
+      <created>1725202033134</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725202033134</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +171,7 @@
     <MESSAGE value="Autowire by Type and lazy init" />
     <MESSAGE value="inner bean" />
     <MESSAGE value="new branch for java bsaed config" />
-    <option name="LAST_COMMIT_MESSAGE" value="new branch for java bsaed config" />
+    <MESSAGE value="get bean by name" />
+    <option name="LAST_COMMIT_MESSAGE" value="get bean by name" />
   </component>
 </project>

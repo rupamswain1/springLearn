@@ -2,7 +2,7 @@ package in.rupam;
 
 public class Laptop implements Computer {
     public Laptop(){
-        System.out.println("Laptop class");
+        System.out.println("Laptop class Initialized");
     }
 
     public void compile(){

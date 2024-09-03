@@ -18,7 +18,10 @@ public class App
         Desktop desktop2 = context.getBean("desktop",Desktop.class);
         //or we can provide the name in config and use it
         Laptop laptop = (Laptop) context.getBean("lappy");
+        Laptop laptop2 = (Laptop) context.getBean("lappy");
 
+        Alien alien = context.getBean(Alien.class);
+        alien.coding();
         //---For xml based config ---
 ////        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 //        ApplicationContext context = new ClassPathXmlApplicationContext("autowireExample.xml");
