@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7f01d70-5311-4599-a7bf-1cd9d71e027d" name="Changes" comment="Autowire by Type and lazy init">
+      <change afterPath="$PROJECT_DIR$/spring/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/in/rupam/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/Alien2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/in/rupam/Alien2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/in/rupam/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/in/rupam/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/in/rupam/Desktop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/in/rupam/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/rupam/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/in/rupam/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/autowireExample.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/autowireExample.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in/rupam/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/test/java/in/rupam/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rupamswain1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rupamswain1/springLearn.git&quot;,
+    &quot;accountId&quot;: &quot;0aebfe46-b09a-478f-b1fd-b769ad8e003b&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2lO1396c6KC3aQDisZvOmKnRDMd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.App.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.springLearn [clean].executor": "Run",
+    "Maven.springLearn [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/rupam/New Volume/Development/java/springLearn/SprinBootLearn"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="in.rupam" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="in.rupam" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rupam.App" />
+      <module name="springLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.rupam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7f01d70-5311-4599-a7bf-1cd9d71e027d" name="Changes" comment="" />
+      <created>1725036106871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725036106871</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Spring learn setup">
+      <option name="closed" value="true" />
+      <created>1725038801955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725038801955</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Constructor injection">
+      <option name="closed" value="true" />
+      <created>1725198759335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725198759335</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Autowire by Type">
+      <option name="closed" value="true" />
+      <created>1725199191696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725199191696</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Autowire by Type and lazy init">
+      <option name="closed" value="true" />
+      <created>1725200155001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725200155001</updated>
+    </task>
+    <task id="LOCAL-00005" summary="inner bean">
+      <option name="closed" value="true" />
+      <created>1725200668974</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725200668974</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new branch for java bsaed config">
+      <option name="closed" value="true" />
+      <created>1725201290355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725201290355</updated>
+    </task>
+    <task id="LOCAL-00007" summary="get bean by name">
+      <option name="closed" value="true" />
+      <created>1725202033134</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725202033134</updated>
+    </task>
+    <task id="LOCAL-00008" summary="java config prototype, primary and autowre">
+      <option name="closed" value="true" />
+      <created>1725343594853</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725343594853</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring learn setup" />
+    <MESSAGE value="Constructor injection" />
+    <MESSAGE value="Autowire by Type" />
+    <MESSAGE value="Autowire by Type and lazy init" />
+    <MESSAGE value="inner bean" />
+    <MESSAGE value="new branch for java bsaed config" />
+    <MESSAGE value="get bean by name" />
+    <MESSAGE value="java config prototype, primary and autowre" />
+    <option name="LAST_COMMIT_MESSAGE" value="java config prototype, primary and autowre" />
+  </component>
+</project>
