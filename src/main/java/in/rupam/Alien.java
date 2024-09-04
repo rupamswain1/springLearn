@@ -1,9 +1,17 @@
 package in.rupam;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
 import java.beans.ConstructorProperties;
 
+@Component
 public class Alien {
+    @Value("21")
     private int lines;
+
     private Computer com;
 
     public int getLines() {
@@ -17,7 +25,8 @@ public class Alien {
     public void setLines(int lines) {
         this.lines = lines;
     }
-
+    @Autowired
+//    @Qualifier("laptop")
     public void setCom(Computer com) {
         this.com = com;
     }
@@ -29,7 +38,7 @@ public class Alien {
 //    }
 
     public void coding(){
-        System.out.println("Coding...");
+        System.out.println("Coding..."+this.lines+" lines");
         com.compile();
     }
 }
