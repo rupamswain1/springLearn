@@ -1,4 +1,4 @@
-package in.rupam.SprinBootLearn;
+package in.rupam.models;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
