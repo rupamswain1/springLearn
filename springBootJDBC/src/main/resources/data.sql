@@ -1,0 +1,1 @@
+insert into student (rollno, name, marks) values (101, 'Django', 60);
