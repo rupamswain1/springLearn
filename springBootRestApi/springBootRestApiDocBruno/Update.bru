@@ -1,0 +1,27 @@
+meta {
+  name: Update
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:8080/jobPost
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "postId": 2,
+    "postProfile": "Next Dev",
+    "postDesc": "Must have exp in Next js",
+    "reqExperience": 5,
+    "postTechStack": [
+      "JavaScript",
+      "React",
+      "html",
+      "css",
+      "Next js"
+    ]
+  }
+}

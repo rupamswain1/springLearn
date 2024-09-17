@@ -1,0 +1,27 @@
+meta {
+  name: Add post
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8080/jobPost
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "postId": 3,
+    "postProfile": "Next Dev",
+    "postDesc": "Must have exp in Next js",
+    "reqExperience": 5,
+    "postTechStack": [
+      "JavaScript",
+      "React",
+      "html",
+      "css",
+      "Next js"
+    ]
+  }
+}
