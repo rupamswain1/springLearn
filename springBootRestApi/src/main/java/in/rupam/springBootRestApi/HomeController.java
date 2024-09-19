@@ -47,4 +47,10 @@ public class HomeController {
         }
         return "Delete Failed";
     }
+
+    @GetMapping("loadData")
+    public String load(){
+        service.loadData();
+        return "Success";
+    }
 }
