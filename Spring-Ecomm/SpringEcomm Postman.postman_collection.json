@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "3f49fb6f-8851-48c6-bb2f-090a0399b9e7",
+		"name": "SpringEcomm Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7157477"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "product",
+							"value": " {\n    \"name\": \"Smartwatch\",\n    \"description\": \"Tracks your fitness and health metrics\",\n    \"brand\": \"WearableBrand\",\n    \"price\": 249.99,\n    \"category\": \"Wearables\",\n    \"releaseDate\": \"24-05-2023\",\n    \"productAvailable\": true,\n    \"stockQuantity\": 40\n  }",
+							"contentType": "application/json",
+							"type": "default"
+						},
+						{
+							"key": "imageData",
+							"type": "file",
+							"src": "/home/rupam/Downloads/smartwatch.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/load",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"load"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
