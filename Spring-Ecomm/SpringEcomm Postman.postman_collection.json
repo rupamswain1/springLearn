@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Get Products",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -27,9 +27,9 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/product",
+			"name": "Add Product",
 			"request": {
-				"method": "PUT",
+				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "formdata",
@@ -63,7 +63,44 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "product",
+							"value": " {\n        \"id\": 2,\n        \"name\": \"SM Laptop\",\n        \"description\": \"High performance laptop for gaming\",\n        \"brand\": \"GamerBrand\",\n        \"price\": 1299.99,\n        \"category\": \"Electronics\",\n        \"releaseDate\": \"09-06-2023\",\n        \"productAvailable\": true,\n        \"stockQuantity\": 30,\n        \"imageName\": null,\n        \"imageType\": null,\n        \"imageData\": null\n}",
+							"contentType": "application/json",
+							"type": "default"
+						},
+						{
+							"key": "imageData",
+							"type": "file",
+							"src": "/home/rupam/Downloads/smartwatch.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/product/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"product",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Load Products",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -77,6 +114,49 @@
 					"path": [
 						"api",
 						"load"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product Image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/product/2/image",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"product",
+						"2",
+						"image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/product/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"product",
+						"5"
 					]
 				}
 			},

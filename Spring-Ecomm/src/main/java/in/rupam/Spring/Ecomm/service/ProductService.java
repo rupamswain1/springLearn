@@ -22,10 +22,24 @@ public class ProductService {
         return  repo.findAll();
     }
 
-    public Product updateProduct(Product product, MultipartFile imageData) throws IOException {
+    public Product addOrUpdateProduct(Product product, MultipartFile imageData) throws IOException {
         product.setImageName(imageData.getOriginalFilename());
         product.setImageType(imageData.getContentType());
         product.setImageData(imageData.getBytes());
         return repo.save(product);
+    }
+
+    public byte[] getProductImage(int productId) {
+        Product product = repo.findById(productId).orElse(new Product());
+        return product.getImageData();
+    }
+
+    public boolean deleteProduct(int id) {
+        Product product = repo.findById(id).orElse(null);
+        if(product != null){
+            repo.deleteById(id);
+            return true;
+        }
+        return false;
     }
 }

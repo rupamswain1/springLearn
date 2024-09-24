@@ -51,14 +51,42 @@ public class ProductController {
       return new ResponseEntity(service.getProducts(), HttpStatus.OK);
     }
 
-    @PutMapping(value="/product",consumes = "multipart/form-data")
-    public ResponseEntity<?> updateProduct(@RequestPart  Product product, @RequestPart MultipartFile imageData){
+    @GetMapping("/product/{productId}/image")
+    public ResponseEntity<byte[]> getImage(@PathVariable int productId){
+        return new ResponseEntity<>(service.getProductImage(productId), HttpStatus.OK);
+    }
+
+    @PostMapping (value="/product",consumes = "multipart/form-data")
+    public ResponseEntity<?> addProduct(@RequestPart  Product product, @RequestPart MultipartFile imageData){
         try{
-            return new ResponseEntity<>(service.updateProduct(product, imageData), HttpStatus.CREATED);
+            return new ResponseEntity<>(service.addOrUpdateProduct(product, imageData), HttpStatus.CREATED);
         }
         catch(IOException e){
             return new ResponseEntity(e.getMessage(),HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
+    }
+
+    @PutMapping(value="/product/{id}",consumes = "multipart/form-data")
+    public ResponseEntity<String> updateProduct(@PathVariable int id, @RequestPart Product product, @RequestPart MultipartFile imageData){
+     try{
+            service.addOrUpdateProduct(product, imageData);
+
+            return new ResponseEntity<String>("Success", HttpStatus.CREATED);
+        }
+        catch(IOException e){
+            return new ResponseEntity<String>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @DeleteMapping("/product/{id}")
+    public ResponseEntity<String> delete(@PathVariable int id){
+        boolean result = service.deleteProduct(id);
+        if(result){
+            return new ResponseEntity("Deleted", HttpStatus.OK);
+        }
+        else{
+            return  new ResponseEntity<>("Failed", HttpStatus.NOT_FOUND);
+        }
     }
 }
