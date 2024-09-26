@@ -42,4 +42,8 @@ public class ProductService {
         }
         return false;
     }
+
+    public Object getProductsByKeyWord(String keyword) {
+        return repo.searchProductByKeyword(keyword);
+    }
 }

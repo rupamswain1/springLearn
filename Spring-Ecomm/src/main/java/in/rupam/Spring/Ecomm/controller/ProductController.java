@@ -56,6 +56,17 @@ public class ProductController {
         return new ResponseEntity<>(service.getProductImage(productId), HttpStatus.OK);
     }
 
+    @GetMapping("/product/search")
+  public ResponseEntity<?> getByKeyword(@RequestParam String keyword){
+       try{
+           return new ResponseEntity<>(service.getProductsByKeyWord(keyword), HttpStatus.OK);
+       }
+       catch(Exception e){
+           return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
+        }
+
+   }
+
     @PostMapping (value="/product",consumes = "multipart/form-data")
     public ResponseEntity<?> addProduct(@RequestPart  Product product, @RequestPart MultipartFile imageData){
         try{
