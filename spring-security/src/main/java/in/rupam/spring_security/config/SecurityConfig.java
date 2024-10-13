@@ -1,5 +1,6 @@
 package in.rupam.spring_security.config;
 
+import in.rupam.spring_security.service.MyUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
