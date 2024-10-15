@@ -17,4 +17,8 @@ public class UserService {
         System.out.println(user.getPassword());
         return repo.save(user);
     }
+
+    public User getUser(User user){
+        return repo.findByUsername(user.getUsername());
+    }
 }
