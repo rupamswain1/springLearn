@@ -1,6 +1,7 @@
 package in.rupam.spring_security.controller;
 
 import in.rupam.spring_security.model.User;
+import in.rupam.spring_security.service.JwtService;
 import in.rupam.spring_security.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -18,6 +19,9 @@ public class UserController {
     private UserService userService;
 
     @Autowired
+    private JwtService jwtService;
+
+    @Autowired
     AuthenticationManager authenticationManager;
 
     @PostMapping("register")
@@ -29,7 +33,7 @@ public class UserController {
     public String login(@RequestBody User user){
         Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword()));
         if(authentication.isAuthenticated())
-            return "Success";
+            return jwtService.generateToken(user.getUsername());
         else
             return "Login Failed";
     }
