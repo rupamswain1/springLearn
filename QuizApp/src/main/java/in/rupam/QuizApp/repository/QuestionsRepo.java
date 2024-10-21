@@ -9,5 +9,5 @@ import java.util.List;
 
 @Repository
 public interface QuestionsRepo extends JpaRepository<Question, Integer> {
-
+    List<Question> findByCategory(String category);
 }

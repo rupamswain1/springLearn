@@ -16,4 +16,12 @@ public class QuestionService {
     public List<Question> getAllQuestiosn() {
         return questionsRepo.findAll();
     }
+
+    public List<Question> getByCategory(String category) {
+        return questionsRepo.findByCategory(category.substring(0, 1).toUpperCase()+category.substring(1));
+    }
+
+    public Question save(Question question) {
+        return questionsRepo.save(question);
+    }
 }
