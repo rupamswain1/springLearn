@@ -14,7 +14,7 @@ public class QuizController {
 
     @GetMapping("getQuiz")
     public RequestEntity<List<Quiz>> getAllQuiz(){
-
+//
     }
 
     @GetMapping("getQuiz/{id}")
