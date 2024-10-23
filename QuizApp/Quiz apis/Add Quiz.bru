@@ -1,0 +1,19 @@
+meta {
+  name: Add Quiz
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:8080/quiz/add
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "category": "Java",
+      "title": "First Java Quiz",
+      "noOfQuestions":5
+  }
+}
