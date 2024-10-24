@@ -1,0 +1,36 @@
+meta {
+  name: Question getScore
+  type: http
+  seq: 11
+}
+
+post {
+  url: http://localhost:8080/questions/getScore
+  body: json
+  auth: none
+}
+
+body:json {
+  [
+      {
+        "questionId": 13,
+        "answer": 0
+      },
+      {
+        "questionId": 7,
+        "answer": "/*"
+      },
+      {
+        "questionId": 19,
+        "answer": "while"
+      },
+      {
+        "questionId": 102,
+        "answer": "Depends on the JVM"
+      },
+      {
+        "questionId": 10,
+        "answer": "Boolean"
+      }
+  ]
+}
